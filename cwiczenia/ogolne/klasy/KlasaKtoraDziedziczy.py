@@ -1,4 +1,4 @@
-from cwiczenia.klasy.KlasyPrzyklad import KlasyPrzyklad
+from cwiczenia.ogolne.klasy.KlasyPrzyklad import KlasyPrzyklad
 
 
 class KlasaKtoraDziedziczy(KlasyPrzyklad):

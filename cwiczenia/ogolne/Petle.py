@@ -1,21 +1,8 @@
-users = {'Jasko' : 'active', 'Patiszon': 'active', 'dziad': 'nieaktywny', 'Pawel': 'active', 'zbych': 'nieaktywny'}
+x = 0
+y = 200
+results = []
+for i in range(x, y):
+    if i % 2 != 0 | i % 3 != 0 | i % 5 != 0 | i % 7 != 0:
+        results.append(i)
 
-aktywneJuzery = {}
-for user, status in users.copy().items():
-    print('przed petla:', users)
-    if status == 'nieaktywny':
-        print('wypierdalam:', users[user])
-        del users[user]
-        print('w petli:', users)
-    elif status == 'active':
-        aktywneJuzery[user] = status
-
-print(users)
-print('aktywne:', aktywneJuzery)
-
-for x in range(1, 50):
-    if x % 2 ==0:
-        print("parzysty!", x)
-        continue
-    else:
-        print("nieparzysty!:", x)
+print(results)

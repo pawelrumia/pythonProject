@@ -9,7 +9,7 @@ class KlasyPrzyklad:
 
 a = KlasyPrzyklad("Plugger")
 b = KlasyPrzyklad("Wtyczek")
-a.addTrick("spierdalaj")
+a.addTrick("uciekaj")
 b.addTrick("kradnij zarcie")
 
 print(a.triki)
