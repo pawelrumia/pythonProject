@@ -52,6 +52,6 @@ print(fibo_drugi_zapisz_na_liste(250))
 
 fibo(200)
 
-gadajaca_papuga(30, typ='obrzygana')
-gadajacy_kotek('Ja pierdole, jak mi sie nie chce', 'Co mowisz kotku', 'nie mow tak')
+gadajaca_papuga(30, typ='sleepy')
+gadajacy_kotek('Let me go', 'What', 'Wanna eat')
 gadajaca_papuga(20, kolor='ryży', typ='ryży')

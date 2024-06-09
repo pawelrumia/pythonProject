@@ -10,8 +10,8 @@ match color:
     case Color.RED:
         print('Red is bad')
     case Color.GREEN:
-        print('Green jest dla świn')
+        print('Green is badder')
     case Color.BLUE:
-        print('Niebieski kureki')
+        print('Niebieski is the baddest')
     case _:
         raise ValueError('nie ma takego koloru!')

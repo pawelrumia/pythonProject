@@ -3,14 +3,14 @@ import math
 def formatowanie(kasa):
     print('Podaj imie:')
     imie = input()
-    print(f'Hej {imie}, ty stary chuju; wisisz mi {kasa} dolcow')
+    print(f'Hej {imie}, kolego ; wisisz mi {kasa} dolcow')
     print(f'The value of pi is {math.pi:.5f}')
 
 formatowanie(1562)
 
-print('To jest testowy tekst {}'.format('w morde kopane'))
-print('To jest testowy tekst {0}, {1}'.format('w morde kopane', 'niech to swisnie'))
-print('To jest testowy tekst {bluzg}, {drugiBluzg}'.format(bluzg='w morde kopane', drugiBluzg='niech to swisnie'))
+print('To jest testowy tekst {}'.format('lelum polelum'))
+print('To jest testowy tekst {0}, {1}'.format('lelum polelum', 'motyla noga'))
+print('To jest testowy tekst {raz}, {dwa}'.format(raz='lelum polelum', dwa='motyla noga'))
 
 def podzielnik(liczba, dzielnik):
     while liczba > 0:

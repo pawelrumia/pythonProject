@@ -15,7 +15,7 @@ def maczowanieKolorow():
         case Colory.WHITE:
             print('White kolor')
 
-def ask_ok(prompt, retries = 4, reminder = "Jeszcze raz debilu"):
+def ask_ok(prompt, retries = 4, reminder = "Jeszcze raz"):
     while True:
         ok = input(prompt)
         if ok in ('y', 'ye', 'yes'):

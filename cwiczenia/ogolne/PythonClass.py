@@ -10,7 +10,7 @@ class Car(Osprzet):
     def display_car(self):
         print(f'Silnik of the car is {self.silnik} and model is {self.model}')
         if self.model == 'meriwka':
-            print('Jebany złom!')
+            print('Złom!')
 
     def is_damaged(self):
         return self.damaged
